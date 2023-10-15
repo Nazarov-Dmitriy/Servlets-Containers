@@ -4,8 +4,7 @@ public class Post {
     private long id;
     private String content;
 
-    public Post() {
-    }
+    public Post() {    }
 
     public long getId() {
         return id;

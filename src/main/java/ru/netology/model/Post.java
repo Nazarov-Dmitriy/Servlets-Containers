@@ -1,6 +1,14 @@
 package ru.netology.model;
 
 public class Post {
+    @Override
+    public String toString() {
+        return "Post{" +
+                "id=" + id +
+                ", content='" + content + '\'' +
+                '}';
+    }
+
     private long id;
     private String content;
 
